@@ -107,6 +107,7 @@ cd "$SCRATCH/$ARCH"
 CFLAGS="-arch $ARCH"
 if [ "$OSX" = "y" ]
 then
+FAT="FFmpeg-OSX"
 PLATFORM="MacOSX"
 CFLAGS="$CFLAGS -mmacosx-version-min=$DEPLOYMENT_TARGET"
 
