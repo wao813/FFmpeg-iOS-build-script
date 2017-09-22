@@ -27,7 +27,7 @@ CONFIGURE_FLAGS="--enable-cross-compile --disable-programs \
 
 if [ "$X264" ]
 then
-CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-gpl --enable-libx264"
+CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-gpl --enable-libx264 --enable-nonfree"
 fi
 
 if [ "$FDK_AAC" ]
